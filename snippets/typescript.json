@@ -1,0 +1,8 @@
+{
+  "navigationOptions Function": {
+    "prefix": "navigationOptionsF",
+    "body": [
+      "// navigationOptionsF: ({ navigation }):  => ({})"
+    ]
+  }
+}
