@@ -63,7 +63,7 @@
       "import { View, Text, StyleSheet } from 'react-native'",
       "import { withNavigation } from 'react-navigation'",
       "import { NavigationStackScreenProps } from 'react-navigation-stack'\n",
-      "class $TM_FILENAME_BASE extends Component<NavigationStackScreenProps> {",
+      "class $TM_FILENAME_BASE extends React.Component<NavigationStackScreenProps> {",
       "\tstatic defaultProps = {}\n",
       "\tconstructor(props: NavigationStackScreenProps) {",
       "\t\tsuper(props)",
@@ -90,7 +90,7 @@
     "prefix": "rnfc",
     "body": [
       "import React from 'react'",
-      "import { View, Text, StyleSheet } from 'react-native'",
+      "import { View, Text, StyleSheet } from 'react-native'\n",
       "interface Props {}\n",
       "const $TM_FILENAME_BASE: React.SFC<Props> = props => (",
       "\t<View style={styles.container}>",
@@ -105,8 +105,7 @@
       "\t\tjustifyContent: 'center',",
       "\t},",
       "})\n",
-      "${1:export default $TM_FILENAME_BASE}",
-      ""
+      "${1:export default $TM_FILENAME_BASE}"
     ]
   },
   "React Native Function Component Screen": {
@@ -128,8 +127,7 @@
       "\t\tjustifyContent: 'center',",
       "\t},",
       "})\n",
-      "${1:export default $TM_FILENAME_BASE}",
-      ""
+      "${1:export default $TM_FILENAME_BASE}"
     ]
   },
   "React Native Function Component withNavigation": {
@@ -152,8 +150,7 @@
       "\t\tjustifyContent: 'center',",
       "\t},",
       "})\n",
-      "${1:export default withNavigation($TM_FILENAME_BASE})",
-      ""
+      "${1:export default withNavigation($TM_FILENAME_BASE})"
     ]
   },
   "navigationOptions": {
