@@ -112,18 +112,6 @@
       "${1:export default $TM_FILENAME_BASE}"
     ]
   },
-  "navigationOptions": {
-    "prefix": "navigationOptions",
-    "body": [
-      "static navigationOptions: NavigationStackOptions = {}"
-    ]
-  },
-  "navigationOptions Function": {
-    "prefix": "navigationOptionsF",
-    "body": [
-      "static navigationOptions = ({ navigation }): NavigationStackOptions => ({})"
-    ]
-  },
   "mobxImport": {
     "prefix": "mobx",
     "body": "import { action, computed, observable, runInAction } from 'mobx'"
