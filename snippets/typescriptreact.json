@@ -243,14 +243,5 @@
       "</TouchableOpacity>"
     ],
     "description": "本组件用于封装视图，使其可以正确响应触摸操作"
-  },
-  "React Native StyleSheet": {
-    "prefix": "rnStyle",
-    "body": [
-      "const styles = StyleSheet.create({",
-      "\t${1:style},",
-      "})\n"
-    ],
-    "description": "StyleSheet 提供了一种类似 CSS 样式表的抽象"
   }
 }
