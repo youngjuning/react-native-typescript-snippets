@@ -96,7 +96,7 @@
       "\tnavigation: $TM_FILENAME_BASENavigationProp",
       "\troute: DetailsScreenRouteProp",
       "}\n",
-      "const $TM_FILENAME_BASE: : React.SFC<Props> = props => {",
+      "const $TM_FILENAME_BASE: : React.SFC<Props> = ({ navigation, route }) => {",
       "\treturn(",
       "\t\t<View style={styles.container}>",
       "\t\t\t<Text style={{ fontSize: 20 }}> $TM_FILENAME_BASE </Text>",
