@@ -2,7 +2,7 @@
   "name": "react-native-typescript-snippets",
   "displayName": "React Native TypeScript Snippets",
   "description": "VReact Native、React Navigation and Mobx Snippets with TypeScript",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "icon": "images/icon.jpg",
   "engines": {
     "vscode": "^1.34.0"
