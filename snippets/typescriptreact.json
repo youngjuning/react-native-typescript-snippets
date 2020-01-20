@@ -24,7 +24,7 @@
       "\t\tflex: 1,",
       "\t\tjustifyContent: 'center',",
       "\t},",
-      "})"
+      "})\n"
     ]
   },
   "React Native Class Component Screen": {
@@ -58,7 +58,7 @@
       "\t\tflex: 1,",
       "\t\tjustifyContent: 'center',",
       "\t},",
-      "})"
+      "})\n"
     ]
   },
   "React Native Function Component": {
@@ -80,7 +80,7 @@
       "\t\tjustifyContent: 'center',",
       "\t},",
       "})\n",
-      "${1:export default $TM_FILENAME_BASE}"
+      "${1:export default $TM_FILENAME_BASE}\n"
     ]
   },
   "React Native Function Component Screen": {
@@ -110,7 +110,7 @@
       "\t\tjustifyContent: 'center',",
       "\t},",
       "})\n",
-      "export default $TM_FILENAME_BASE"
+      "export default $TM_FILENAME_BASE\n"
     ]
   },
   "mobxImport": {
